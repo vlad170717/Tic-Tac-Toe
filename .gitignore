@@ -1,0 +1,42 @@
+# Project exclude paths
+/.gradle/
+/Problems/Boys in a sport class/out/
+/Problems/Boys in a sport class/out/production/classes/
+/Problems/Check a number is positive/out/
+/Problems/Check a number is positive/out/production/classes/
+/Problems/Check the value/out/
+/Problems/Check the value/out/production/classes/
+/Problems/Composite numbers/out/
+/Problems/Composite numbers/out/production/classes/
+/Problems/Division/out/
+/Problems/Division/out/production/classes/
+/Problems/Groundhogs at a party/out/
+/Problems/Groundhogs at a party/out/production/classes/
+/Problems/Rotate a rectange array/out/
+/Problems/Rotate a rectange array/out/production/classes/
+/Problems/The sign of a number/out/
+/Problems/The sign of a number/out/production/classes/
+/Problems (2)/Even or odd/out/
+/Problems (2)/Even or odd/out/production/classes/
+/Problems (3)/The sum of array elements/out/
+/Problems (3)/The sum of array elements/out/production/classes/
+/Problems (4)/Two numbers never occur to each other/out/
+/Problems (4)/Two numbers never occur to each other/out/production/classes/
+/Problems (5)/Right Rotation/out/
+/Problems (5)/Right Rotation/out/production/classes/
+/Problems (6)/Swap the columns/out/
+/Problems (6)/Swap the columns/out/production/classes/
+/Problems (7)/Pretty looking pattern/out/
+/Problems (7)/Pretty looking pattern/out/production/classes/
+/Problems (8)/Sum of neighbors/out/
+/Problems (8)/Sum of neighbors/out/production/classes/
+/Problems (9)/Cyclically shifting elements/out/
+/Problems (9)/Cyclically shifting elements/out/production/classes/
+/Problems (10)/Sum of neighbors/out/
+/Problems (10)/Sum of neighbors/out/production/classes/
+/Problems (11)/Bus tour/out/
+/Problems (11)/Bus tour/out/production/classes/
+/Tic-Tac-Toe/task/build/
+/Tic-Tac-Toe/task/out/
+/Tic-Tac-Toe/task/out/production/classes/
+/Tic-Tac-Toe/task/out/test/classes/
