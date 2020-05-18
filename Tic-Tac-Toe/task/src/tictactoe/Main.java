@@ -7,11 +7,23 @@ public class Main {
         System.out.println("Enter cells: ");
         String game = sc.nextLine();
         
-        System.out.println("---------");
-        System.out.println("| "+game.charAt(0)+" "+game.charAt(1)+" "+game.charAt(2)+" |");
-        System.out.println("| "+game.charAt(3)+" "+game.charAt(4)+" "+game.charAt(5)+" |");
-        System.out.println("| "+game.charAt(6)+" "+game.charAt(7)+" "+game.charAt(8)+" |");
-        System.out.println("---------");
+
+        char[][] gameField = new char[4][4];
+
+        gameField[1][3] = game.charAt(0);
+        gameField[2][3] = game.charAt(1);
+        gameField[3][3] = game.charAt(2);
+        gameField[1][2] = game.charAt(3);
+        gameField[2][2] = game.charAt(4);
+        gameField[3][2] = game.charAt(5);
+        gameField[1][1] = game.charAt(6);
+        gameField[2][1] = game.charAt(7);
+        gameField[3][1] = game.charAt(8);
+
+        printGameField(gameField);
+
+        System.out.println("Enter the coordinates: ");
+        String coords = sc.nextLine();
 
         int emptyFields = 9;
         int xCount = 0;
@@ -65,5 +77,13 @@ public class Main {
         } else {
             System.out.println("O wins");
         }
+    }
+
+    private static void printGameField(char[][] gameField) {
+        System.out.println("---------");
+        System.out.println("| " + gameField[1][3] + " " + gameField[2][3] + " " + gameField[3][3] + " |");
+        System.out.println("| " + gameField[1][2] + " " + gameField[2][2] + " " + gameField[3][2] + " |");
+        System.out.println("| " + gameField[1][1] + " " + gameField[2][1] + " " + gameField[3][1] + " |");
+        System.out.println("---------");
     }
 }
